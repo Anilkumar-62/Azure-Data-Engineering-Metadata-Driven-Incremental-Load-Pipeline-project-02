@@ -1,0 +1,28 @@
+{
+	"name": "P2_DS_SQL_Incremental_Watermark_Lookup",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_Anil_SQL_Source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "TableName",
+				"type": "varchar"
+			},
+			{
+				"name": "WatermarkValue",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Watermark_Table"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "adf-incremental-loading-sales-project-02",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ec1ea58a-f0aa-4660-9bf8-a019de38aec7",
+		"tenantId": "77fb4ed2-0dac-4acb-844f-437e6d6f601c"
+	}
+}

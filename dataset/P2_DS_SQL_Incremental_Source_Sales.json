@@ -1,0 +1,43 @@
+{
+	"name": "P2_DS_SQL_Incremental_Source_Sales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_Anil_SQL_Source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SaleID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ProductName",
+				"type": "varchar"
+			},
+			{
+				"name": "Category",
+				"type": "varchar"
+			},
+			{
+				"name": "Amount",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "SaleDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Sales_Source"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
