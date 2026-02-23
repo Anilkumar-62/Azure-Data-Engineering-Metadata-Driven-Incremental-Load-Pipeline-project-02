@@ -1,0 +1,2 @@
+# Azure-Data-Engineering-Metadata-Driven-Incremental-Load-Pipeline-project-02
+A comprehensive Data Engineering project demonstrating an end-to-end Incremental Data Loading framework using Azure Data Factory(ADF).This project implements a Metadata-driven approach using SQL Watermark tables to efficiently capture and process delta records from an Azure SQL Database to ADLS Gen2,ensuring optimized data movement and scalability.
